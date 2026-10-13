@@ -1,0 +1,104 @@
+/* Estilos Customizados - CustomStorage */
+
+:root {
+    --primary-color: #3b82f6;
+    --primary-dark: #1d4ed8;
+    --primary-light: #60a5fa;
+    --primary-subtle: #dbeafe;
+    --body-bg: #f8fafc;
+    --card-border-radius: 1rem;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: var(--body-bg);
+    color: #1e293b;
+    letter-spacing: -0.01em;
+}
+
+.brand-icon {
+    width: 38px;
+    height: 38px;
+    font-size: 1.25rem;
+}
+
+.hero-banner {
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.device-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    border: 1px solid #e2e8f0;
+}
+
+.device-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px -10px rgba(0, 0, 0, 0.12) !important;
+}
+
+.device-card-header {
+    background: linear-gradient(180deg, #f1f5f9 0%, #ffffff 100%);
+    border-top-left-radius: var(--card-border-radius);
+    border-top-right-radius: var(--card-border-radius);
+}
+
+.device-display-icon {
+    font-size: 4rem;
+    color: var(--primary-color);
+    filter: drop-shadow(0 4px 6px rgba(59, 130, 246, 0.2));
+}
+
+.user-avatar-badge {
+    width: 26px;
+    height: 26px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.feature-icon-circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shadow-xs {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.capacity-option {
+    transition: all 0.2s ease;
+}
+
+.capacity-option:hover {
+    border-color: var(--primary-color);
+}
+
+.order-type-card {
+    transition: all 0.2s ease;
+}
+
+.order-type-card:hover {
+    border-color: var(--primary-color);
+}
+
+.line-clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
